@@ -120,3 +120,21 @@ main{
     height: 28px;
     padding: 3px;    
 }
+.bg-pink{
+    display: inline-block;
+    background-color: rgb(173, 62, 105);
+    color: white;
+    border: 1px solid rgb(173, 62, 105);
+    border-radius: 15px;
+    height: 28px;
+    padding: 3px;    
+}
+.bg-lightgreen{
+    display: inline-block;
+    background-color: lightgreen;
+    color: white;
+    border: 1px solid lightgreen;
+    border-radius: 15px;
+    height: 28px;
+    padding: 3px;
+}
