@@ -1,9 +1,11 @@
-/* RESET */
+             /* RESET */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+          /* END OF RESET */
+          
 header{
     height: 100px;
     width: 100%;
@@ -31,28 +33,30 @@ main{
     margin: 0 auto;
     border: 3px solid white;
     border-radius: 10px;
+    padding: 30px;
 }
 #task{
     display: inline-block;
     margin-left: 50px;
     border: 1px solid rgb(71, 173, 241);
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px;
     background-color: rgb(71, 173, 241);
     color: white;
+    margin-bottom: 10px;
 }
 #section{
     display: inline-block;
     margin-left: 10px;
     border: 1px solid grey;
     border-radius: 5px;
-    padding: 5px;
+    padding: 7px;
     color: lightgray;
 }
-.content{
-    margin-top: 10px;
+.new-task{
+    padding-top: 40px;
     border-top: 1px solid rgb(246, 248, 249);
-    padding: 40px;
+    
 
 }
 .title h2{
@@ -68,6 +72,8 @@ main{
     display: inline-block;
     width: 20px;
     margin-right: 3px;
+    vertical-align: middle;
+    text-align: center;
 }
 .bg-blue{
     display: inline-block;
@@ -98,9 +104,8 @@ main{
     display: inline-block;
     width: 20px;
     margin-right: 3px;
-}
-.raw{
-    margin-top: 10px;
+    vertical-align: middle;
+    text-align: center;
 }
 .bg-green{
     display: inline-block;
@@ -137,4 +142,13 @@ main{
     border-radius: 15px;
     height: 28px;
     padding: 3px;
+}
+.down-arrowed{
+    font-size: 2rem;
+}
+.title{
+    margin-bottom: 30px;
+}
+.raw{
+    margin: 5px 0;
 }
