@@ -1,0 +1,20 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100px;
+    width: 100%;
+}
+#logo{
+    padding: 20px;
+    
+}
+h1{
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 100px;
+    vertical-align: 30px;
+}
